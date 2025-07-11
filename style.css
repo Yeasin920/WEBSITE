@@ -1,0 +1,10 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+body{
+    background-size: cover;
+    width: 100%;
+    height: 100%;background: url(https://images.pexels.com/photos/53594/blue-clouds-day-fluffy-53594.jpeg?_gl=1*1lv4vja*_ga*NTA2NDc5MTcyLjE3NTE5OTYyMzk.*_ga_8JE65Q40S6*czE3NTE5OTYyMzgkbzEkZzEkdDE3NTE5OTYyNTUkajQzJGwwJGgw) center / cover no-repeat;
+}
