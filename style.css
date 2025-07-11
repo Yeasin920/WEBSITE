@@ -8,3 +8,61 @@ body{
     width: 100%;
     height: 100%;background: url(https://images.pexels.com/photos/53594/blue-clouds-day-fluffy-53594.jpeg?_gl=1*1lv4vja*_ga*NTA2NDc5MTcyLjE3NTE5OTYyMzk.*_ga_8JE65Q40S6*czE3NTE5OTYyMzgkbzEkZzEkdDE3NTE5OTYyNTUkajQzJGwwJGgw) center / cover no-repeat;
 }
+ul{
+    float: right;
+    list-style: none;
+    font-size: 17px;
+    margin-top: 30px;
+    min-height: 400px;
+}
+ul li{
+    display: inline-block;
+}
+ul li a{
+    text-decoration: none;
+    color: rgb(226, 205, 43);
+    padding: 5px 20px;
+    border: 1px solid transparent;
+    transition: 0.5 ease;
+}
+ul li a:hover{
+    background-color: #fff;
+}
+.active{
+    background-color: #fff;
+}
+.title-name{
+    font-size: 50px;
+    font-weight: 600;
+    color: rgba(139, 0, 12, 0.952);
+    display: inline-block;
+    margin-left: 40px;
+    margin-top: 30px;
+}
+.main{
+    max-width: 1200px;
+    margin: 0 auto;
+}
+.titles{
+    position: absolute;
+    top: 47%;
+    left: 42%;
+    color: #fff;
+   
+}
+.btn {
+    position: absolute;
+    top: 55%;
+    left: 38%;
+   
+}
+a{
+    color: #fff;
+    text-decoration: none;
+    border: 1px solid #fff;
+    padding: 10px;
+    border-radius: 3px;
+}
+a:hover{
+    background-color: aqua;
+}
